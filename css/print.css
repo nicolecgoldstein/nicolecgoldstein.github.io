@@ -1,0 +1,60 @@
+body{
+  background: transparent;
+  font-family: 'Vidaloka', serif;
+}
+
+
+#container-big{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#challenger{
+  line-height: 1px;
+}
+
+#mcandrew{
+  line-height: 1px;
+}
+
+#mncbia{
+  line-height: 1px;
+}
+
+#calleva{
+  line-height: 1px;
+}
+
+nav{
+  display: none;
+}
+
+
+p {
+line-height:30px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a[href^="http://"]:after, a[href^="https://"]:after { content: " (" attr(href) ") "; }
+
+a[href$=".html"] {
+  display: none;
+  text-decoration: none;
+}

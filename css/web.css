@@ -1,0 +1,72 @@
+body{
+  background: url(../img/paleblue.jpg);
+  font-family: 'Vidaloka', serif;
+}
+
+
+#container-big{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h1 {
+  color: rgb(0,227,161);
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0,227,161);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#challenger{
+  line-height: 1px;
+}
+
+#mcandrew{
+  line-height: 1px;
+}
+
+#mncbia{
+  line-height: 1px;
+}
+
+#calleva{
+  line-height: 1px;
+}
+
+nav{
+  text-align: center;
+}
+
+ol li {
+  list-style-type: none;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+ol li > a {
+  display: inline-block;
+  padding: 16px;
+  background: rgb(255,183,138);
+  border: 3px solid rgb(255,161,79);
+  text-decoration: none;
+  color: rgb(91,183,94);
+}
+
+
+ol li > a:hover {
+  background: rgb(255,84,0);
+  color: white;
+
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(255,161,79);
+}
+
+p {
+line-height:40px;
+}
