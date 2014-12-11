@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Mate|Pacifico|Italianno|Open+Sans+Condensed:300);
+
 body{
   background: url(../img/bluebubbles2.jpg);
   font-family: 'Vidaloka', serif;
@@ -48,10 +49,10 @@ h2 {
 }
 
 .experience{
-  line-height: 0.1;
+  line-height: 2;
 }
 .experience + p{
-  line-height: 2.5;
+  line-height: 1.5;
 }
 
 nav{
@@ -62,7 +63,6 @@ ol li {
   list-style-type: none;
   display: inline-block;
   border: 1px solid #ccc;
-  margin-right: 30px;
 }
 
 ol li > a {
@@ -99,4 +99,5 @@ h3 {
 p {
 line-height:40px;
 font-family: 'Mate', serif;
+}
 }
