@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Mate|Pacifico|Italianno|Open+Sans+Condensed:300);
 
 body{
-  background: url(../img/bluebubbles2.jpg);
+  background: url(../img/whitebars.jpg);
   font-family: 'Vidaloka', serif;
   font-size: 24px;
   max-width: 320px;
@@ -16,12 +16,33 @@ body{
   padding: 1em;
 }
 
+#mysymbol{
+  width: 367.5px;
+  height: 330px;
+  display: block;
+  border: none;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.webtitle{
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-family: 'Italianno', cursive;
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(107,91,143);
+}
+
 .pictures{
   width: 600px;
   margin: 0 auto;
   text-align: center;
 }
-
 
 img{
   margin-top: 50px;
@@ -45,6 +66,8 @@ h1 {
 
 #webpagewelcome{
   text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 h2 {
@@ -63,7 +86,12 @@ nav{
   text-align: center;
 }
 
+ul li {
+  font-family: 'Mate', serif;
+}
+
 ol li {
+  font-family: 'Open Sans Condensed', sans-serif;
   list-style-type: none;
   display: inline-block;
   border: 1px solid #ccc;
@@ -71,6 +99,7 @@ ol li {
 }
 
 ol li > a {
+  font-family: 'Open Sans Condensed', sans-serif;
   display: inline-block;
   padding-left: 80px;
   padding-right: 80px;
@@ -84,6 +113,7 @@ ol li > a {
 
 
 ol li > a:hover {
+  font-family: 'Open Sans Condensed', sans-serif;
   background: rgb(138,51,143);
   color: white;
 
@@ -94,15 +124,7 @@ h3 {
   color: rgb(138,51,143);
 }
 
-#initials {
-  font-family: 'Italianno', cursive;
-  text-align: center;
-  font-size: 100px;
-  color: rgb(107,91,143);
-}
-
 p {
 line-height:40px;
 font-family: 'Mate', serif;
-}
 }
